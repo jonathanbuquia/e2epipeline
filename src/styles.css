@@ -32,6 +32,11 @@ a {
   display: grid;
   grid-template-columns: 270px minmax(0, 1fr);
   min-height: 100vh;
+  transition: grid-template-columns 220ms ease;
+}
+
+.app-shell.sidebar-collapsed {
+  grid-template-columns: 88px minmax(0, 1fr);
 }
 
 .sidebar {
@@ -47,9 +52,15 @@ a {
 
 .brand-block {
   display: flex;
+  width: 100%;
   gap: 13px;
   align-items: center;
   padding: 0 8px 30px;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
 }
 
 .brand-mark {
@@ -64,10 +75,25 @@ a {
   letter-spacing: -0.04em;
 }
 
+.brand-mark svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
 .brand-block p,
 .brand-block strong {
   display: block;
   margin: 0;
+}
+
+.brand-text,
+.menu-label {
+  overflow: hidden;
+  white-space: nowrap;
+  transition:
+    opacity 180ms ease,
+    width 220ms ease;
 }
 
 .brand-block p {
@@ -77,6 +103,21 @@ a {
 
 .brand-block strong {
   font-size: 1.1rem;
+}
+
+.sidebar-collapsed .sidebar {
+  padding-inline: 14px;
+}
+
+.sidebar-collapsed .brand-block {
+  justify-content: center;
+  padding-inline: 0;
+}
+
+.sidebar-collapsed .brand-text,
+.sidebar-collapsed .menu-label {
+  width: 0;
+  opacity: 0;
 }
 
 .menu-list {
@@ -89,13 +130,22 @@ a {
   width: 100%;
   gap: 12px;
   align-items: center;
-  padding: 13px 14px;
+  padding: 10px 12px;
   border: 0;
-  border-radius: 14px;
+  border-radius: 16px;
   color: #475569;
   background: transparent;
   cursor: pointer;
   text-align: left;
+  transition:
+    background 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.sidebar-collapsed .menu-list button {
+  justify-content: center;
+  padding-inline: 8px;
 }
 
 .menu-list button:hover,
@@ -104,31 +154,53 @@ a {
   background: #eef4ff;
 }
 
-.menu-list span {
+.menu-list button:hover {
+  transform: translateX(2px);
+}
+
+.menu-icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border: 1px solid #d8e3f2;
+  border-radius: 13px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(239, 246, 255, 0.74));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 7px 16px rgba(15, 23, 42, 0.06);
+  place-items: center;
+  transition:
+    border-color 160ms ease,
+    background 160ms ease,
+    box-shadow 160ms ease,
+    color 160ms ease;
+}
+
+.menu-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.menu-list button .menu-icon {
   color: #64748b;
-  font-size: 0.75rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
 }
 
-.sidebar-note {
-  margin-top: auto;
-  padding: 18px;
-  border: 1px solid #dfe7f1;
-  border-radius: 18px;
-  background: #f8fafc;
-}
-
-.sidebar-note p {
-  margin: 0 0 5px;
-  color: #64748b;
-  font-size: 0.84rem;
-}
-
-.sidebar-note strong {
-  display: block;
-  font-size: 0.98rem;
-  line-height: 1.35;
+.menu-list button:hover .menu-icon,
+.menu-list button.active .menu-icon {
+  border-color: #93c5fd;
+  color: #2563eb;
+  background:
+    linear-gradient(145deg, #ffffff, #dbeafe);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    0 10px 22px rgba(37, 99, 235, 0.14);
 }
 
 .content-panel {
@@ -213,7 +285,7 @@ h3 {
 
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   margin-bottom: 16px;
 }
@@ -222,6 +294,7 @@ h3 {
   min-height: 130px;
   padding: 20px;
   border-radius: 18px;
+  animation: card-rise 520ms ease both;
 }
 
 .metric-card span,
@@ -260,6 +333,7 @@ h3 {
   padding: 0;
   overflow: hidden;
   border-radius: 18px;
+  animation: card-rise 560ms ease both;
 }
 
 .chart-card.wide {
@@ -309,6 +383,18 @@ h3 {
   font-size: 13px;
 }
 
+.y-axis-text {
+  text-anchor: end;
+}
+
+.axis-title {
+  fill: #475569;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .inline-legend {
   display: flex;
   flex-wrap: wrap;
@@ -334,24 +420,33 @@ h3 {
   border-radius: 50%;
 }
 
-.donut-layout,
 .gauge-wrap {
   display: grid;
+  grid-template-columns: minmax(180px, 0.85fr) minmax(260px, 1.15fr);
   gap: 24px;
+  align-items: center;
+  justify-items: stretch;
+}
+
+.donut-layout {
+  display: grid;
+  gap: 24px;
+  align-items: center;
   justify-items: center;
+}
+
+.donut-layout.split-large {
+  grid-template-columns: minmax(180px, 0.85fr) minmax(300px, 1.15fr);
+  justify-items: stretch;
 }
 
 .donut-chart,
 .gauge {
   position: relative;
   display: grid;
-  width: 190px;
-  height: 190px;
-  border-radius: 50%;
   place-items: center;
 }
 
-.donut-chart::after,
 .gauge::after {
   position: absolute;
   width: 118px;
@@ -361,22 +456,18 @@ h3 {
   content: "";
 }
 
-.donut-chart strong,
-.donut-chart span,
 .gauge strong,
 .gauge span {
   position: relative;
   z-index: 1;
 }
 
-.donut-chart strong,
 .gauge strong {
   align-self: end;
   font-size: 2rem;
   line-height: 1;
 }
 
-.donut-chart span,
 .gauge span {
   align-self: start;
   color: #64748b;
@@ -386,8 +477,87 @@ h3 {
   text-transform: uppercase;
 }
 
+.donut-chart {
+  width: 260px;
+  height: 220px;
+  justify-self: center;
+}
+
+.donut-layout.split-large .donut-chart {
+  width: 340px;
+  height: 292px;
+}
+
+.donut-svg {
+  display: block;
+  width: 260px;
+  height: 220px;
+  overflow: visible;
+}
+
+.donut-layout.split-large .donut-svg {
+  width: 340px;
+  height: 292px;
+}
+
+.donut-slice-bg {
+  stroke: #e7eef8;
+}
+
+.donut-slice {
+  stroke-linecap: butt;
+  animation: donut-draw 980ms cubic-bezier(0.2, 0.78, 0.2, 1) both;
+}
+
+.donut-percent {
+  font-size: 13px;
+  font-weight: 900;
+  opacity: 0;
+  paint-order: stroke;
+  stroke: rgba(15, 23, 42, 0.18);
+  stroke-width: 2px;
+  animation: label-pop 420ms ease 760ms both;
+}
+
+.donut-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  width: 132px;
+  height: 90px;
+  place-items: center;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.donut-center strong {
+  align-self: end;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.donut-center span {
+  align-self: start;
+  color: #64748b;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
 .gauge {
-  background: conic-gradient(#071126 0 var(--value), #d8e0ea var(--value) 100%);
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: conic-gradient(#071126 0 var(--gauge-angle), #d8e0ea var(--gauge-angle) 360deg);
+  animation: gauge-fill 940ms cubic-bezier(0.2, 0.78, 0.2, 1) both;
+  justify-self: center;
+}
+
+.gauge::after {
+  width: 146px;
+  height: 146px;
 }
 
 .legend-list {
@@ -409,15 +579,37 @@ h3 {
 
 .stacked-chart {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
-  align-items: end;
+  gap: 18px;
   min-height: 360px;
 }
 
 .stacked-chart .inline-legend {
-  grid-column: 1 / -1;
   justify-content: center;
+}
+
+.stacked-plot {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 14px;
+  min-height: 330px;
+}
+
+.stack-y-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  padding-top: 28px;
+  color: #64748b;
+  font-size: 13px;
+  text-align: right;
+}
+
+.stacked-bars-area {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  align-items: end;
 }
 
 .stack-column {
@@ -436,15 +628,22 @@ h3 {
 .stack-track {
   display: flex;
   flex-direction: column-reverse;
+  transform: scaleY(0);
+  transform-origin: bottom;
   min-height: 22px;
   overflow: hidden;
   border-radius: 18px 18px 7px 7px;
   background: #eef2f7;
+  animation: grow-up 820ms cubic-bezier(0.2, 0.78, 0.2, 1) both;
 }
 
 .stack-track i {
   display: block;
   width: 100%;
+}
+
+.stack-segment {
+  animation: segment-fade 700ms ease 320ms both;
 }
 
 .ranked-bars {
@@ -477,6 +676,9 @@ h3 {
   height: 100%;
   border-radius: inherit;
   background: #3b82f6;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: grow-right 820ms cubic-bezier(0.2, 0.78, 0.2, 1) both;
 }
 
 .rank-row strong {
@@ -511,6 +713,24 @@ h3 {
   fill: #1e293b;
   font-size: 13px;
   font-weight: 800;
+}
+
+.trend-line,
+.flow-link {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw-line 1100ms cubic-bezier(0.2, 0.78, 0.2, 1) both;
+}
+
+.flow-link {
+  animation-duration: 1300ms;
+}
+
+.trend-point {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: point-pop 360ms ease 880ms both;
 }
 
 .data-section {
@@ -588,9 +808,6 @@ h3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .sidebar-note {
-    margin-top: 18px;
-  }
 }
 
 @media (max-width: 860px) {
@@ -615,7 +832,102 @@ h3 {
     gap: 8px;
   }
 
-  .stacked-chart {
+  .stacked-bars-area {
     grid-template-columns: 1fr;
+  }
+}
+
+@keyframes card-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes draw-line {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes point-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes grow-up {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes grow-right {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes segment-fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes donut-draw {
+  from {
+    stroke-dashoffset: var(--slice-start-offset);
+  }
+
+  to {
+    stroke-dashoffset: var(--slice-final-offset);
+  }
+}
+
+@keyframes label-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.88);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes gauge-fill {
+  from {
+    background: conic-gradient(#071126 0 0deg, #d8e0ea 0deg 360deg);
+  }
+
+  to {
+    background: conic-gradient(#071126 0 var(--gauge-angle), #d8e0ea var(--gauge-angle) 360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
   }
 }

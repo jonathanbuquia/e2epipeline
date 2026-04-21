@@ -2,11 +2,10 @@ import { useEffect, useState } from 'react';
 import { workbookGroups } from './data/workbooks.js';
 
 const menuItems = [
-  { id: 'overview', label: 'Career Snapshot' },
-  { id: 'enrollment', label: 'SHS to Degree' },
-  { id: 'employment', label: 'Graduate Jobs' },
-  { id: 'trajectory', label: 'Career Flow' },
-  { id: 'sources', label: 'JSON Sources' },
+  { id: 'overview', icon: 'snapshot', label: 'Career Snapshot' },
+  { id: 'enrollment', icon: 'education', label: 'SHS to Degree' },
+  { id: 'employment', icon: 'jobs', label: 'Graduate Jobs' },
+  { id: 'trajectory', icon: 'flow', label: 'Career Flow' },
 ];
 
 const strandColors = {
@@ -19,6 +18,25 @@ const strandColors = {
 
 const fieldColors = [
   '#071126',
+  '#3b82f6',
+  '#10b981',
+  '#f59e0b',
+  '#8b5cf6',
+  '#ef4444',
+  '#06b6d4',
+  '#64748b',
+];
+
+const flowStrandColors = {
+  STEM: '#0ea5e9',
+  ABM: '#3b82f6',
+  HUMSS: '#10b981',
+  GAS: '#f59e0b',
+  ICT: '#8b5cf6',
+};
+
+const flowFieldColors = [
+  '#0ea5e9',
   '#3b82f6',
   '#10b981',
   '#f59e0b',
@@ -41,7 +59,7 @@ const yearPairs = {
 function App() {
   const [activeView, setActiveView] = useState('overview');
   const [selectedStrand, setSelectedStrand] = useState('All Strands');
-  const [selectedYear, setSelectedYear] = useState('All');
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const [data, setData] = useState({ enrollment: [], employment: [] });
   const [isLoading, setIsLoading] = useState(true);
 
@@ -80,6 +98,7 @@ function App() {
     enrollment: enrollmentById.get(String(job.student_id)),
   }));
   const availableStrands = countBy(data.enrollment, 'shs_strand').map((item) => item.label);
+  const selectedYear = 'All';
   const yearContext = yearPairs[selectedYear];
   const matchesSelectedStrand = (strand) =>
     selectedStrand === 'All Strands' || strand === selectedStrand;
@@ -94,15 +113,10 @@ function App() {
       matchesSelectedStrand(row.enrollment?.shs_strand),
   );
   const filteredEmployment = filteredCareerRecords.map(({ enrollment, ...job }) => job);
-  const selectedYearRows =
-    selectedYear === 'All' || Number(selectedYear) <= 2021
-      ? filteredEnrollment
-      : filteredCareerRecords.map((row) => ({
-          ...row,
-          shs_strand: row.enrollment?.shs_strand ?? 'Unmapped',
-        }));
-  const selectedYearUnit =
-    selectedYear === 'All' || Number(selectedYear) <= 2021 ? 'students' : 'graduates';
+  const graduateRows = filteredCareerRecords.map((row) => ({
+    ...row,
+    shs_strand: row.enrollment?.shs_strand ?? 'Unmapped',
+  })).filter((row) => row.shs_strand !== 'Unmapped');
   const selectedYearLabel = yearContext.label ?? selectedYear;
   const alignedCount = filteredCareerRecords.filter(
     (row) => row.match_or_mismatch === 'Match',
@@ -110,47 +124,46 @@ function App() {
   const alignmentRate = filteredCareerRecords.length
     ? Math.round((alignedCount / filteredCareerRecords.length) * 100)
     : 0;
-  const totalWorkbooks = workbookGroups.reduce(
-    (total, group) => total + group.files.length,
-    0,
-  );
-
   return (
-    <main className="app-shell">
+    <main className={`app-shell ${isSidebarCollapsed ? 'sidebar-collapsed' : ''}`}>
       <aside className="sidebar">
-        <div className="brand-block">
-          <span className="brand-mark">CT</span>
-          <div>
-            <p>Career Trajectory</p>
+        <button
+          aria-label={isSidebarCollapsed ? 'Expand sidebar' : 'Collapse sidebar'}
+          className="brand-block"
+          onClick={() => setIsSidebarCollapsed((current) => !current)}
+          type="button"
+        >
+          <span className="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M4 11.2 12 4l8 7.2v8.3a.5.5 0 0 1-.5.5h-5v-5.5h-5V20h-5a.5.5 0 0 1-.5-.5z" />
+            </svg>
+          </span>
+          <div className="brand-text">
             <strong>Dashboard</strong>
           </div>
-        </div>
+        </button>
 
         <nav className="menu-list" aria-label="Dashboard sections">
-          {menuItems.map((item, index) => (
+          {menuItems.map((item) => (
             <button
               className={activeView === item.id ? 'active' : ''}
               key={item.id}
               onClick={() => setActiveView(item.id)}
               type="button"
             >
-              <span>{String(index + 1).padStart(2, '0')}</span>
-              {item.label}
+              <span className="menu-icon" aria-hidden="true">
+                <MenuIcon name={item.icon} />
+              </span>
+              <span className="menu-label">{item.label}</span>
             </button>
           ))}
         </nav>
-
-        <div className="sidebar-note">
-          <p>Live JSON data</p>
-          <strong>{totalWorkbooks} converted workbooks</strong>
-        </div>
       </aside>
 
       <section className="content-panel">
         <header className="content-header">
           <div>
-            <p className="eyebrow">Static snapshot export</p>
-            <h1>Career Trajectory Dashboard</h1>
+            <h1>Education to Employment Pipeline Dashboard</h1>
           </div>
           <div className="header-actions">
             <select
@@ -163,37 +176,22 @@ function App() {
                 <option key={strand}>{strand}</option>
               ))}
             </select>
-            <select
-              aria-label="Select year"
-              onChange={(event) => setSelectedYear(event.target.value)}
-              value={selectedYear}
-            >
-              <option value="All">All</option>
-              <option value="2019">2019</option>
-              <option value="2020">2020</option>
-              <option value="2021">2021</option>
-              <option value="2023">2023</option>
-              <option value="2024">2024</option>
-              <option value="2025">2025</option>
-            </select>
           </div>
         </header>
 
         {isLoading ? (
-          <section className="empty-state">Loading JSON dashboard data...</section>
+          <section className="empty-state">Loading dashboard data...</section>
         ) : (
-          <>
+          <div className="view-stage" key={`${activeView}-${selectedStrand}`}>
             {activeView === 'overview' && (
               <OverviewView
                 alignmentRate={alignmentRate}
                 enrollment={filteredEnrollment}
                 employment={filteredEmployment}
                 graduationYear={yearContext.graduationYear}
+                graduateRows={graduateRows}
                 selectedStrand={selectedStrand}
-                selectedYear={selectedYear}
                 selectedYearLabel={selectedYearLabel}
-                selectedYearRows={selectedYearRows}
-                selectedYearUnit={selectedYearUnit}
               />
             )}
 
@@ -221,9 +219,7 @@ function App() {
                 selectedStrand={selectedStrand}
               />
             )}
-
-            {activeView === 'sources' && <SourcesView />}
-          </>
+          </div>
         )}
       </section>
     </main>
@@ -235,11 +231,9 @@ function OverviewView({
   enrollment,
   employment,
   graduationYear,
+  graduateRows,
   selectedStrand,
-  selectedYear,
   selectedYearLabel,
-  selectedYearRows,
-  selectedYearUnit,
 }) {
   const totalEnrollment = enrollment.length;
   const totalGraduates = employment.length;
@@ -250,7 +244,6 @@ function OverviewView({
         <MetricCard detail={`${selectedYearLabel} selected filter`} label="Enrollment records" value={totalEnrollment} />
         <MetricCard detail={`${graduationYear ?? 'All Years'} paired outcomes`} label="Graduate records" value={totalGraduates} />
         <MetricCard detail={`${selectedStrand} career fit`} label="Job alignment" value={`${alignmentRate}%`} />
-        <MetricCard detail="Filtered JSON records" label="Source workbooks" value="6" />
       </section>
 
       <section className="dashboard-grid">
@@ -259,29 +252,36 @@ function OverviewView({
             colors={strandColors}
             data={enrollment}
             groupKey="shs_strand"
+            yAxisLabel="Students"
             yearKey="entering_year"
           />
         </ChartCard>
 
-        <ChartCard eyebrow="Year mix" title={`${selectedYearLabel} strand distribution ratio`}>
+        <ChartCard eyebrow="Enrollment mix" title={`${selectedYearLabel} SHS strand distribution`}>
           <DonutChart
             colors={strandColors}
-            data={countBy(selectedYearRows, 'shs_strand')}
-            centerLabel={`${selectedYearRows.length}`}
-            subLabel={selectedYearUnit}
+            data={countBy(enrollment, 'shs_strand')}
+            centerLabel={`${enrollment.length}`}
+            subLabel="students"
           />
         </ChartCard>
 
-        <ChartCard className="full" eyebrow="Pathway" title={`${selectedYearLabel} node-link diagram: SHS strands to specific programs`}>
-          <FlowDiagram
+        <ChartCard className="wide" eyebrow="Graduation" title={`${selectedYearLabel} graduate outcome profile`}>
+          <MultiLineTrendChart
             colors={strandColors}
-            columns={[
-              { key: 'shs_strand', title: 'SHS Strand' },
-              { key: 'undergraduate_field', title: 'Undergraduate Field' },
-              { key: 'undergraduate_program', title: 'Specific Program' },
-            ]}
-            data={enrollment}
-            limitPerColumn={[4, 5, 14]}
+            data={graduateRows}
+            groupKey="shs_strand"
+            yAxisLabel="Graduates"
+            yearKey="graduation_year"
+          />
+        </ChartCard>
+
+        <ChartCard eyebrow="Graduation mix" title={`${selectedYearLabel} graduate strand distribution`}>
+          <DonutChart
+            colors={strandColors}
+            data={countBy(graduateRows, 'shs_strand')}
+            centerLabel={`${graduateRows.length}`}
+            subLabel="graduates"
           />
         </ChartCard>
       </section>
@@ -292,12 +292,13 @@ function OverviewView({
 function EnrollmentView({ enrollment, selectedStrand, year }) {
   return (
     <section className="dashboard-grid">
-      <ChartCard className="wide" eyebrow="Trend" title={`${year} ${selectedStrand} enrollment by cohort`}>
-        <StackedBars
-          colors={strandColors}
-          data={enrollment}
-          groupKey="shs_strand"
-          yearKey="entering_year"
+      <ChartCard className="wide" eyebrow="Undergraduate field" title={`${year} undergraduate field distribution`}>
+        <DonutChart
+          colors={fieldColorMap(enrollment, 'undergraduate_field')}
+          data={countBy(enrollment, 'undergraduate_field')}
+          centerLabel={`${enrollment.length}`}
+          subLabel="students"
+          variant="splitLarge"
         />
       </ChartCard>
 
@@ -360,12 +361,33 @@ function TrajectoryView({ careerRecords, graduationYear, selectedStrand }) {
       job_position: row.job_position,
       employer: row.employer,
     }));
+  const undergraduateColors = fieldColorMap(
+    trajectoryRecords,
+    'undergraduate_field',
+    flowFieldColors,
+  );
+  const trajectoryColors = {
+    ...flowStrandColors,
+    ...undergraduateColors,
+    ...dominantColorMap(
+      trajectoryRecords,
+      'job_position',
+      'undergraduate_field',
+      undergraduateColors,
+    ),
+    ...dominantColorMap(
+      trajectoryRecords,
+      'employer',
+      'undergraduate_field',
+      undergraduateColors,
+    ),
+  };
 
   return (
     <section className="dashboard-grid">
       <ChartCard className="full tall" eyebrow="Career path" title={`${graduationYear} ${selectedStrand} career trajectory flow`}>
         <FlowDiagram
-          colors={strandColors}
+          colors={trajectoryColors}
           columns={[
             { key: 'shs_strand', title: 'SHS Strand' },
             { key: 'undergraduate_field', title: 'Undergraduate Field' },
@@ -438,7 +460,44 @@ function ChartCard({ children, className = '', eyebrow, title }) {
   );
 }
 
-function MultiLineTrendChart({ colors, data, groupKey, yearKey }) {
+function MenuIcon({ name }) {
+  if (name === 'education') {
+    return (
+      <svg viewBox="0 0 24 24">
+        <path d="M3 8.5 12 4l9 4.5-9 4.5z" />
+        <path d="M6.5 11.2v4.2c1.7 1.7 9.3 1.7 11 0v-4.2" />
+      </svg>
+    );
+  }
+
+  if (name === 'jobs') {
+    return (
+      <svg viewBox="0 0 24 24">
+        <path d="M8.5 7V5.8A1.8 1.8 0 0 1 10.3 4h3.4a1.8 1.8 0 0 1 1.8 1.8V7" />
+        <path d="M4 8h16v10.2A1.8 1.8 0 0 1 18.2 20H5.8A1.8 1.8 0 0 1 4 18.2z" />
+        <path d="M4 12.2h16M10 12.2v1.3h4v-1.3" />
+      </svg>
+    );
+  }
+
+  if (name === 'flow') {
+    return (
+      <svg viewBox="0 0 24 24">
+        <path d="M5 6.5h5.5M13.5 6.5H19M5 17.5h5.5M13.5 17.5H19" />
+        <path d="M10.5 6.5c2 0 2 11 4 11M10.5 17.5c2 0 2-11 4-11" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg viewBox="0 0 24 24">
+      <path d="M5 19V9M12 19V5M19 19v-7" />
+      <path d="M4 19.5h16" />
+    </svg>
+  );
+}
+
+function MultiLineTrendChart({ colors, data, groupKey, yAxisLabel, yearKey }) {
   const years = [...new Set(data.map((row) => String(row[yearKey])))].sort();
   const groups = [...new Set(data.map((row) => row[groupKey]).filter(Boolean))];
   const series = groups.map((group) => ({
@@ -446,23 +505,34 @@ function MultiLineTrendChart({ colors, data, groupKey, yearKey }) {
     values: years.map((year) => data.filter((row) => String(row[yearKey]) === year && row[groupKey] === group).length),
   }));
   const max = Math.max(...series.flatMap((item) => item.values), 1);
+  const yTicks = [max, Math.round(max * 0.67), Math.round(max * 0.33), 0];
 
   return (
     <div className="trend-chart">
       <svg viewBox="0 0 760 300" role="img" aria-label="SHS enrollment trend chart">
+        <text className="axis-title" transform="rotate(-90)" x="-168" y="15">
+          {yAxisLabel}
+        </text>
         {[0, 1, 2, 3].map((line) => (
-          <line className="grid-line" key={line} x1="58" x2="728" y1={50 + line * 62} y2={50 + line * 62} />
+          <line className="grid-line" key={line} x1="70" x2="728" y1={50 + line * 62} y2={50 + line * 62} />
+        ))}
+        {yTicks.map((tick, index) => (
+          <text className="axis-text y-axis-text" key={`${tick}-${index}`} x="58" y={54 + index * 62}>
+            {tick}
+          </text>
         ))}
         {series.map((item) => {
           const chartPoints = item.values.map((value, index) => ({
-            x: years.length === 1 ? 380 : 70 + index * 310,
+            x: years.length === 1 ? 390 : 88 + index * 300,
             y: 254 - (value / max) * 190,
           }));
           const points = chartPoints.map((point) => `${point.x},${point.y}`).join(' ');
           return (
             <g key={item.group}>
               <polyline
+                className="trend-line"
                 fill="none"
+                pathLength="1"
                 points={points}
                 stroke={colors[item.group] ?? '#64748b'}
                 strokeLinecap="round"
@@ -470,6 +540,7 @@ function MultiLineTrendChart({ colors, data, groupKey, yearKey }) {
               />
               {chartPoints.map((point) => (
                 <circle
+                  className="trend-point"
                   cx={point.x}
                   cy={point.y}
                   fill={colors[item.group] ?? '#64748b'}
@@ -481,7 +552,7 @@ function MultiLineTrendChart({ colors, data, groupKey, yearKey }) {
           );
         })}
         {years.map((year, index) => (
-          <text className="axis-text" key={year} x={years.length === 1 ? 380 : 70 + index * 310} y="284">
+          <text className="axis-text" key={year} x={years.length === 1 ? 390 : 88 + index * 300} y="284">
             {year}
           </text>
         ))}
@@ -498,72 +569,161 @@ function StackedBars({ colors, data, groupKey, yearKey }) {
     ...years.map((year) => data.filter((row) => String(row[yearKey]) === year).length),
     1,
   );
+  const yTicks = [max, Math.round(max * 0.67), Math.round(max * 0.33), 0];
 
   return (
     <div className="stacked-chart">
-      {years.map((year) => {
-        const rows = data.filter((row) => String(row[yearKey]) === year);
-        return (
-          <div className="stack-column" key={year}>
-            <strong>{rows.length}</strong>
-            <div className="stack-track" style={{ height: `${Math.max((rows.length / max) * 100, 8)}%` }}>
-              {groups.map((group) => {
-                const count = rows.filter((row) => row[groupKey] === group).length;
-                return count ? (
-                  <i
-                    key={group}
-                    style={{
-                      background: colors[group],
-                      height: `${(count / rows.length) * 100}%`,
-                    }}
-                  />
-                ) : null;
-              })}
-            </div>
-            <span>{year}</span>
-          </div>
-        );
-      })}
+      <div className="stacked-plot">
+        <div className="stack-y-axis" aria-hidden="true">
+          {yTicks.map((tick, index) => (
+            <span key={`${tick}-${index}`}>{tick}</span>
+          ))}
+        </div>
+
+        <div className="stacked-bars-area">
+          {years.map((year) => {
+            const rows = data.filter((row) => String(row[yearKey]) === year);
+            return (
+              <div className="stack-column" key={year}>
+                <strong>{rows.length}</strong>
+                <div className="stack-track" style={{ height: `${Math.max((rows.length / max) * 100, 8)}%` }}>
+                  {groups.map((group) => {
+                    const count = rows.filter((row) => row[groupKey] === group).length;
+                    return count ? (
+                      <i
+                        key={group}
+                        className="stack-segment"
+                        style={{
+                          background: colors[group],
+                          height: `${(count / rows.length) * 100}%`,
+                        }}
+                      />
+                    ) : null;
+                  })}
+                </div>
+                <span>{year}</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
       <Legend colors={colors} labels={groups} />
     </div>
   );
 }
 
-function DonutChart({ centerLabel, colors = {}, data, subLabel }) {
+function DonutChart({ centerLabel, colors = {}, data, subLabel, variant = 'default' }) {
   const total = data.reduce((sum, item) => sum + item.value, 0) || 1;
-  let cursor = 0;
   const fallbackColors = ['#071126', '#d8e0ea', '#10b981', '#f59e0b', '#8b5cf6'];
-  const gradient = data
-    .map((item, index) => {
-      const start = cursor;
-      cursor += (item.value / total) * 100;
-      return `${colors[item.label] ?? fallbackColors[index % fallbackColors.length]} ${start}% ${cursor}%`;
-    })
-    .join(', ');
+  const isSplitLarge = variant === 'splitLarge';
+  const centerX = isSplitLarge ? 170 : 130;
+  const centerY = isSplitLarge ? 146 : 100;
+  const radius = isSplitLarge ? 92 : 70;
+  const strokeWidth = isSplitLarge ? 56 : 44;
+  const viewBox = isSplitLarge ? '0 0 340 292' : '0 0 260 220';
+  const circumference = 2 * Math.PI * radius;
+  let offset = 0;
+  const legend = (
+    <div className="legend-list">
+      {data.map((item, index) => (
+        <p key={item.label}>
+          <i style={{ background: colors[item.label] ?? fallbackColors[index % fallbackColors.length] }} />
+          {cleanLabel(item.label)}
+          <strong>{item.value}</strong>
+        </p>
+      ))}
+    </div>
+  );
+  const chart = (
+    <div className="donut-chart">
+      <svg className="donut-svg" viewBox={viewBox} role="img" aria-label={`${subLabel} distribution donut chart`}>
+        <circle className="donut-slice-bg" cx={centerX} cy={centerY} fill="none" r={radius} strokeWidth={strokeWidth} />
+        {data.map((item, index) => {
+          const percent = item.value / total;
+          const dash = percent * circumference;
+          const currentOffset = offset;
+          const midAngle = -90 + (currentOffset + dash / 2) / circumference * 360;
+          const sliceColor = colors[item.label] ?? fallbackColors[index % fallbackColors.length];
+          const textPoint = polarPoint(centerX, centerY, radius, midAngle);
 
-  return (
-    <div className="donut-layout">
-      <div className="donut-chart" style={{ background: `conic-gradient(${gradient})` }}>
+          offset += dash;
+
+          return (
+            <g key={item.label}>
+              <circle
+                className="donut-slice"
+                cx={centerX}
+                cy={centerY}
+                fill="none"
+                r={radius}
+                stroke={sliceColor}
+                strokeDasharray={`${dash} ${circumference - dash}`}
+                strokeDashoffset={-currentOffset}
+                strokeWidth={strokeWidth}
+                style={{
+                  '--slice-final-offset': -currentOffset,
+                  '--slice-start-offset': circumference - currentOffset,
+                }}
+                transform={`rotate(-90 ${centerX} ${centerY})`}
+              />
+              <text
+                className="donut-percent"
+                fill={contrastTextColor(sliceColor)}
+                textAnchor="middle"
+                x={textPoint.x}
+                y={textPoint.y + 4}
+              >
+                {Math.round(percent * 100)}%
+              </text>
+            </g>
+          );
+        })}
+      </svg>
+      <div className="donut-center">
         <strong>{centerLabel}</strong>
         <span>{subLabel}</span>
       </div>
-      <div className="legend-list">
-        {data.map((item, index) => (
-          <p key={item.label}>
-            <i style={{ background: colors[item.label] ?? fallbackColors[index % fallbackColors.length] }} />
-            {item.label}
-            <strong>{item.value}</strong>
-          </p>
-        ))}
-      </div>
     </div>
   );
+
+  return (
+    <div className={`donut-layout ${isSplitLarge ? 'split-large' : ''}`}>
+      {isSplitLarge ? (
+        <>
+          {legend}
+          {chart}
+        </>
+      ) : (
+        <>
+          {chart}
+          {legend}
+        </>
+      )}
+    </div>
+  );
+}
+
+function polarPoint(centerX, centerY, radius, angle) {
+  const radians = (angle * Math.PI) / 180;
+  return {
+    x: centerX + radius * Math.cos(radians),
+    y: centerY + radius * Math.sin(radians),
+  };
+}
+
+function contrastTextColor(color) {
+  const hex = color.replace('#', '');
+  const red = parseInt(hex.slice(0, 2), 16);
+  const green = parseInt(hex.slice(2, 4), 16);
+  const blue = parseInt(hex.slice(4, 6), 16);
+  const brightness = (red * 299 + green * 587 + blue * 114) / 1000;
+  return brightness > 145 ? '#0f172a' : '#ffffff';
 }
 
 function Gauge({ value }) {
   return (
     <div className="gauge-wrap">
-      <div className="gauge" style={{ '--value': `${value}%` }}>
+      <div className="gauge" style={{ '--value': `${value}%`, '--gauge-angle': `${value * 3.6}deg` }}>
         <strong>{value}%</strong>
         <span>aligned</span>
       </div>
@@ -670,10 +830,12 @@ function FlowDiagram({ colors = {}, columns, data, limitPerColumn }) {
           const color = colors[link.source.label] ?? '#9aa3af';
           return (
             <path
+              className="flow-link"
               d={curvePath(link.source.x, link.source.y, link.target.x, link.target.y)}
               fill="none"
               key={`${link.source.key}-${link.target.key}`}
               opacity="0.42"
+              pathLength="1"
               stroke={color}
               strokeLinecap="round"
               strokeWidth={Math.max(1, Math.min(8, Math.sqrt(link.value) * 1.15))}
@@ -748,9 +910,36 @@ function curvePath(x1, y1, x2, y2) {
   return `M ${x1} ${y1} C ${x1 + mid} ${y1}, ${x2 - mid} ${y2}, ${x2} ${y2}`;
 }
 
-function fieldColorMap(data, key) {
+function fieldColorMap(data, key, palette = fieldColors) {
   const labels = countBy(data, key).map((item) => item.label);
-  return Object.fromEntries(labels.map((label, index) => [label, fieldColors[index % fieldColors.length]]));
+  return Object.fromEntries(labels.map((label, index) => [label, palette[index % palette.length]]));
+}
+
+function dominantColorMap(data, targetKey, sourceKey, sourceColors) {
+  const targetSources = new Map();
+
+  data.forEach((row) => {
+    const target = row[targetKey];
+    const source = row[sourceKey];
+
+    if (!target || !source) {
+      return;
+    }
+
+    if (!targetSources.has(target)) {
+      targetSources.set(target, new Map());
+    }
+
+    const counts = targetSources.get(target);
+    counts.set(source, (counts.get(source) ?? 0) + 1);
+  });
+
+  return Object.fromEntries(
+    [...targetSources.entries()].map(([target, counts]) => {
+      const dominantSource = [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0];
+      return [target, sourceColors[dominantSource] ?? '#64748b'];
+    }),
+  );
 }
 
 export default App;

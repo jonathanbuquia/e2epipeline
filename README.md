@@ -1,4 +1,4 @@
-# Graduate Dashboard
+# Education to Employment Pipeline Dashboard
 
 Preliminary React dashboard project for the uploaded enrollment and graduate
 employment Excel files.
