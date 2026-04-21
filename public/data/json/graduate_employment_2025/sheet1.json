@@ -1,0 +1,1852 @@
+[
+  {
+    "graduation_year": 2025,
+    "student_id": 20210001,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210002,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Science in Human Capital Development",
+    "job_position": "Community Organizer",
+    "industry": "Government/NGO",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210003,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Web Developer",
+    "industry": "Technology/IT",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210004,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Management Trainee",
+    "industry": "Retail/Conglomerate",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210005,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Civil Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210006,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Early Childhood Education",
+    "job_position": "Systems Administrator",
+    "industry": "Technology/IT",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210007,
+    "undergraduate_field": "Law field",
+    "undergraduate_degree": "BS in Legal Management",
+    "job_position": "Customer Service Lead",
+    "industry": "Retail/Conglomerate",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210008,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Project Coordinator",
+    "industry": "Engineering/Construction",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210009,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Accountancy",
+    "job_position": "Civil Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210010,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Data Science",
+    "job_position": "Investment Associate",
+    "industry": "Finance/Banking",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210011,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Data Analyst",
+    "industry": "Technology/IT",
+    "employer": "GCash (Mynt)",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210012,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210013,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "IT Support",
+    "industry": "Technology/IT",
+    "employer": "Department of Education",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210014,
+    "undergraduate_field": "Law field",
+    "undergraduate_degree": "BS in Legal Management",
+    "job_position": "Sales Executive",
+    "industry": "Retail/Conglomerate",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210015,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Audit Associate",
+    "industry": "Finance/Banking",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210016,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Site Supervisor",
+    "industry": "Engineering/Construction",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210017,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "Bachelor of Arts in Humanities",
+    "job_position": "Media Planner",
+    "industry": "Marketing/Advertising",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210018,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Social Media Manager",
+    "industry": "Marketing/Advertising",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210019,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Civil Engineering",
+    "job_position": "Content Creator",
+    "industry": "Marketing/Advertising",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210020,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Accountancy",
+    "job_position": "Software Engineer",
+    "industry": "Technology/IT",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210021,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Content Creator",
+    "industry": "Marketing/Advertising",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210022,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Management Trainee",
+    "industry": "Retail/Conglomerate",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210023,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Project Coordinator",
+    "industry": "Engineering/Construction",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210024,
+    "undergraduate_field": "Law field",
+    "undergraduate_degree": "BS in Legal Management",
+    "job_position": "Management Trainee",
+    "industry": "Retail/Conglomerate",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210025,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Administrative Officer",
+    "industry": "Government/NGO",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210026,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Marketing Associate",
+    "industry": "Marketing/Advertising",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210027,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Legal Assistant",
+    "industry": "Government/NGO",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210028,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Community Organizer",
+    "industry": "Government/NGO",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210029,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Bank Teller",
+    "industry": "Finance/Banking",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210030,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Sales Executive",
+    "industry": "Retail/Conglomerate",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210031,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Web Developer",
+    "industry": "Technology/IT",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210032,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "PR Assistant",
+    "industry": "Marketing/Advertising",
+    "employer": "BPI",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210033,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Community Organizer",
+    "industry": "Government/NGO",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210034,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Project Coordinator",
+    "industry": "Engineering/Construction",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210035,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Policy Researcher",
+    "industry": "Government/NGO",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210036,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Policy Researcher",
+    "industry": "Government/NGO",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210037,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Civil Engineering",
+    "job_position": "Management Trainee",
+    "industry": "Retail/Conglomerate",
+    "employer": "Metrobank",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210038,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210039,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "Bachelor of Arts in Humanities",
+    "job_position": "Preschool Teacher",
+    "industry": "Education",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210040,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Social Media Manager",
+    "industry": "Marketing/Advertising",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210041,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Information Technology",
+    "job_position": "Financial Analyst",
+    "industry": "Finance/Banking",
+    "employer": "BPI",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210042,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210043,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Accountancy",
+    "job_position": "Preschool Teacher",
+    "industry": "Education",
+    "employer": "GCash (Mynt)",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210044,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Audit Associate",
+    "industry": "Finance/Banking",
+    "employer": "Metrobank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210045,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "Bachelor of Arts in Humanities",
+    "job_position": "PR Assistant",
+    "industry": "Marketing/Advertising",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210046,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Civil Engineering",
+    "job_position": "Legal Assistant",
+    "industry": "Government/NGO",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210047,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Science in Human Capital Development",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "Department of Education",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210048,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "IT Support",
+    "industry": "Technology/IT",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210049,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "Bachelor of Arts in Humanities",
+    "job_position": "Social Media Manager",
+    "industry": "Marketing/Advertising",
+    "employer": "BPI",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210050,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Data Science",
+    "job_position": "Systems Administrator",
+    "industry": "Technology/IT",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210051,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Data Science",
+    "job_position": "Social Media Manager",
+    "industry": "Marketing/Advertising",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210052,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210053,
+    "undergraduate_field": "Law field",
+    "undergraduate_degree": "BS in Legal Management",
+    "job_position": "Media Planner",
+    "industry": "Marketing/Advertising",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210054,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Accountancy",
+    "job_position": "Content Creator",
+    "industry": "Marketing/Advertising",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210055,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Software Engineer",
+    "industry": "Technology/IT",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210056,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210057,
+    "undergraduate_field": "Politics & Governance field",
+    "undergraduate_degree": "Bachelor of Arts in Political Economy",
+    "job_position": "Media Planner",
+    "industry": "Marketing/Advertising",
+    "employer": "BPI",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210058,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Legal Assistant",
+    "industry": "Government/NGO",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210059,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Web Developer",
+    "industry": "Technology/IT",
+    "employer": "BPI",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210060,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210061,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210062,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210063,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Management Trainee",
+    "industry": "Retail/Conglomerate",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210064,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Preschool Teacher",
+    "industry": "Education",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210065,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Industrial Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210066,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Community Organizer",
+    "industry": "Government/NGO",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210067,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Information Technology",
+    "job_position": "Media Planner",
+    "industry": "Marketing/Advertising",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210068,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Industrial Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210069,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Project Coordinator",
+    "industry": "Engineering/Construction",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210070,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Civil Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "BPI",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210071,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Investment Associate",
+    "industry": "Finance/Banking",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210072,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210073,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Science in Human Capital Development",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210074,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Project Coordinator",
+    "industry": "Engineering/Construction",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210075,
+    "undergraduate_field": "Law field",
+    "undergraduate_degree": "BS in Legal Management",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "Metrobank",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210076,
+    "undergraduate_field": "Politics & Governance field",
+    "undergraduate_degree": "Bachelor of Arts in Political Economy",
+    "job_position": "Guidance Associate",
+    "industry": "Education",
+    "employer": "Department of Education",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210077,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "Bachelor of Arts in Humanities",
+    "job_position": "Bank Teller",
+    "industry": "Finance/Banking",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210078,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Science in Human Capital Development",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210079,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "Bachelor of Arts in Humanities",
+    "job_position": "Industrial Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210080,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "GCash (Mynt)",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210081,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Financial Analyst",
+    "industry": "Finance/Banking",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210082,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Civil Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210083,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "BPI",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210084,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210085,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Information Technology",
+    "job_position": "IT Support",
+    "industry": "Technology/IT",
+    "employer": "GCash (Mynt)",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210086,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Early Childhood Education",
+    "job_position": "Community Organizer",
+    "industry": "Government/NGO",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210087,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Civil Engineering",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210088,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Audit Associate",
+    "industry": "Finance/Banking",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210089,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Information Technology",
+    "job_position": "Data Analyst",
+    "industry": "Technology/IT",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210090,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Community Organizer",
+    "industry": "Government/NGO",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210091,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210092,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Marketing Associate",
+    "industry": "Marketing/Advertising",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210093,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Investment Associate",
+    "industry": "Finance/Banking",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210094,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Civil Engineering",
+    "job_position": "Guidance Associate",
+    "industry": "Education",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210095,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Early Childhood Education",
+    "job_position": "Systems Administrator",
+    "industry": "Technology/IT",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210096,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Financial Analyst",
+    "industry": "Finance/Banking",
+    "employer": "GCash (Mynt)",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210097,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210098,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Information Technology",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210099,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Management Trainee",
+    "industry": "Retail/Conglomerate",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210100,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Industrial Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210101,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Content Creator",
+    "industry": "Marketing/Advertising",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210102,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Accountancy",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210103,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Investment Associate",
+    "industry": "Finance/Banking",
+    "employer": "Department of Education",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210104,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Social Media Manager",
+    "industry": "Marketing/Advertising",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210105,
+    "undergraduate_field": "Law field",
+    "undergraduate_degree": "BS in Legal Management",
+    "job_position": "Content Creator",
+    "industry": "Marketing/Advertising",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210106,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Policy Researcher",
+    "industry": "Government/NGO",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210107,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Marketing Associate",
+    "industry": "Marketing/Advertising",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210108,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Sales Executive",
+    "industry": "Retail/Conglomerate",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210109,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Legal Assistant",
+    "industry": "Government/NGO",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210110,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Legal Assistant",
+    "industry": "Government/NGO",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210111,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210112,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Systems Administrator",
+    "industry": "Technology/IT",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210113,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management with Specialization in Business Analytics",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210114,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Civil Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210115,
+    "undergraduate_field": "Politics & Governance field",
+    "undergraduate_degree": "Bachelor of Arts in Political Economy",
+    "job_position": "Customer Service Lead",
+    "industry": "Retail/Conglomerate",
+    "employer": "SGV & Co.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210116,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Information Technology",
+    "job_position": "Community Organizer",
+    "industry": "Government/NGO",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210117,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Sales Executive",
+    "industry": "Retail/Conglomerate",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210118,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Management Trainee",
+    "industry": "Retail/Conglomerate",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210119,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Bank Teller",
+    "industry": "Finance/Banking",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210120,
+    "undergraduate_field": "Politics & Governance field",
+    "undergraduate_degree": "Bachelor of Arts in Political Economy",
+    "job_position": "Administrative Officer",
+    "industry": "Government/NGO",
+    "employer": "Jollibee Foods Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210121,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Policy Researcher",
+    "industry": "Government/NGO",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210122,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Early Childhood Education",
+    "job_position": "PR Assistant",
+    "industry": "Marketing/Advertising",
+    "employer": "Metrobank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210123,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210124,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210125,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Data Analyst",
+    "industry": "Technology/IT",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210126,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Site Supervisor",
+    "industry": "Engineering/Construction",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210127,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Information Technology",
+    "job_position": "Social Media Manager",
+    "industry": "Marketing/Advertising",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210128,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "SGV & Co.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210129,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Systems Administrator",
+    "industry": "Technology/IT",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210130,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Financial Analyst",
+    "industry": "Finance/Banking",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210131,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "IT Support",
+    "industry": "Technology/IT",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210132,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Data Science",
+    "job_position": "Media Planner",
+    "industry": "Marketing/Advertising",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210133,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Guidance Associate",
+    "industry": "Education",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210134,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Policy Researcher",
+    "industry": "Government/NGO",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210135,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Software Engineer",
+    "industry": "Technology/IT",
+    "employer": "SGV & Co.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210136,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Financial Analyst",
+    "industry": "Finance/Banking",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210137,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210138,
+    "undergraduate_field": "Politics & Governance field",
+    "undergraduate_degree": "Bachelor of Arts in Political Economy",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210139,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Guidance Associate",
+    "industry": "Education",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210140,
+    "undergraduate_field": "Politics & Governance field",
+    "undergraduate_degree": "Bachelor of Arts in Political Economy",
+    "job_position": "Web Developer",
+    "industry": "Technology/IT",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210141,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Customer Service Lead",
+    "industry": "Retail/Conglomerate",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210142,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Civil Engineering",
+    "job_position": "Operations Assistant",
+    "industry": "Retail/Conglomerate",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210143,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Management Accounting",
+    "job_position": "Customer Service Lead",
+    "industry": "Retail/Conglomerate",
+    "employer": "BPI",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210144,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Data Science",
+    "job_position": "Industrial Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210145,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Guidance Associate",
+    "industry": "Education",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210146,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210147,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Sales Executive",
+    "industry": "Retail/Conglomerate",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210148,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Marketing Associate",
+    "industry": "Marketing/Advertising",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210149,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Investment Associate",
+    "industry": "Finance/Banking",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210150,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Media Planner",
+    "industry": "Marketing/Advertising",
+    "employer": "PLDT Inc.",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210151,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Industrial Engineering",
+    "job_position": "Social Media Manager",
+    "industry": "Marketing/Advertising",
+    "employer": "Ayala Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210152,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210153,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Civil Engineering",
+    "job_position": "PR Assistant",
+    "industry": "Marketing/Advertising",
+    "employer": "Department of Education",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210154,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Guidance Associate",
+    "industry": "Education",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210155,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Health Humanities",
+    "job_position": "Sales Executive",
+    "industry": "Retail/Conglomerate",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210156,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210157,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Site Supervisor",
+    "industry": "Engineering/Construction",
+    "employer": "Metrobank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210158,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Content Creator",
+    "industry": "Marketing/Advertising",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210159,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in BA major in Management",
+    "job_position": "Civil Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210160,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "BS in Civil Engineering",
+    "job_position": "Policy Researcher",
+    "industry": "Government/NGO",
+    "employer": "Metrobank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210161,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "IT Support",
+    "industry": "Technology/IT",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210162,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Sales Executive",
+    "industry": "Retail/Conglomerate",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210163,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210164,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "AB Humanities w specialization in Creative Writing",
+    "job_position": "Administrative Officer",
+    "industry": "Government/NGO",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210165,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "Bachelor of Arts in Humanities",
+    "job_position": "Investment Associate",
+    "industry": "Finance/Banking",
+    "employer": "Megaworld Corp",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210166,
+    "undergraduate_field": "Law field",
+    "undergraduate_degree": "BS in Legal Management",
+    "job_position": "Policy Researcher",
+    "industry": "Government/NGO",
+    "employer": "Metrobank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210167,
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_degree": "Bachelor of Arts in Humanities",
+    "job_position": "Customer Service Lead",
+    "industry": "Retail/Conglomerate",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210168,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Bank Teller",
+    "industry": "Finance/Banking",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210169,
+    "undergraduate_field": "Law field",
+    "undergraduate_degree": "BS in Legal Management",
+    "job_position": "Management Trainee",
+    "industry": "Retail/Conglomerate",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210170,
+    "undergraduate_field": "Economics field",
+    "undergraduate_degree": "Bachelor of Arts in Economics",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210171,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Accountancy",
+    "job_position": "Guidance Associate",
+    "industry": "Education",
+    "employer": "Grab Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210172,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Junior Accountant",
+    "industry": "Finance/Banking",
+    "employer": "Aboitiz Equity Ventures",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210173,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Accountancy",
+    "job_position": "Administrative Officer",
+    "industry": "Government/NGO",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210174,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Early Childhood Education",
+    "job_position": "Industrial Engineer",
+    "industry": "Engineering/Construction",
+    "employer": "Globe Telecom",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210175,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Early Childhood Education",
+    "job_position": "Audit Associate",
+    "industry": "Finance/Banking",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210176,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Information Technology",
+    "job_position": "Media Planner",
+    "industry": "Marketing/Advertising",
+    "employer": "GCash (Mynt)",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210177,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Research Assistant",
+    "industry": "Education",
+    "employer": "SM Investments Corporation",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210178,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Early Childhood Education",
+    "job_position": "Social Media Manager",
+    "industry": "Marketing/Advertising",
+    "employer": "BDO Unibank",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210179,
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_degree": "Bachelor of Science in Data Science",
+    "job_position": "Policy Researcher",
+    "industry": "Government/NGO",
+    "employer": "Metrobank",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210180,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Early Childhood Education",
+    "job_position": "Preschool Teacher",
+    "industry": "Education",
+    "employer": "Department of Finance",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210181,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Integrated Marketing",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "Shopee Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210182,
+    "undergraduate_field": "Media and Marketing Field",
+    "undergraduate_degree": "Bachelor of Arts in Media and Entertainment Management",
+    "job_position": "Community Organizer",
+    "industry": "Government/NGO",
+    "employer": "Accenture Philippines",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210183,
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_degree": "Bachelor of Science in Human Capital Development",
+    "job_position": "Academic Coordinator",
+    "industry": "Education",
+    "employer": "BPI",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210184,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "Bachelor of Science in Entrepreneurial Management",
+    "job_position": "Marketing Associate",
+    "industry": "Marketing/Advertising",
+    "employer": "Google Philippines",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "graduation_year": 2025,
+    "student_id": 20210185,
+    "undergraduate_field": "Management field",
+    "undergraduate_degree": "BS in Accountancy",
+    "job_position": "Project Coordinator",
+    "industry": "Engineering/Construction",
+    "employer": "San Miguel Corporation",
+    "match_or_mismatch": "Match"
+  }
+]

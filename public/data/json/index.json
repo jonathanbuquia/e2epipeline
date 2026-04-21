@@ -1,0 +1,252 @@
+{
+  "sourceFolder": "excel",
+  "workbookCount": 6,
+  "workbooks": [
+    {
+      "id": "graduate_employment_2023",
+      "sourceFile": "graduate_employment_2023.xlsx",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "file": "sheet1.json",
+          "rowCount": 160,
+          "columns": [
+            {
+              "key": "graduation_year",
+              "label": "Graduation Year"
+            },
+            {
+              "key": "student_id",
+              "label": "Student ID"
+            },
+            {
+              "key": "undergraduate_field",
+              "label": "Undergraduate Field"
+            },
+            {
+              "key": "undergraduate_degree",
+              "label": "Undergraduate Degree"
+            },
+            {
+              "key": "job_position",
+              "label": "Job Position"
+            },
+            {
+              "key": "industry",
+              "label": "Industry"
+            },
+            {
+              "key": "employer",
+              "label": "Employer"
+            },
+            {
+              "key": "match_or_mismatch",
+              "label": "Match or Mismatch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graduate_employment_2024",
+      "sourceFile": "graduate_employment_2024.xlsx",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "file": "sheet1.json",
+          "rowCount": 135,
+          "columns": [
+            {
+              "key": "graduation_year",
+              "label": "Graduation Year"
+            },
+            {
+              "key": "student_id",
+              "label": "Student ID"
+            },
+            {
+              "key": "undergraduate_field",
+              "label": "Undergraduate Field"
+            },
+            {
+              "key": "undergraduate_degree",
+              "label": "Undergraduate Degree"
+            },
+            {
+              "key": "job_position",
+              "label": "Job Position"
+            },
+            {
+              "key": "industry",
+              "label": "Industry"
+            },
+            {
+              "key": "employer",
+              "label": "Employer"
+            },
+            {
+              "key": "match_or_mismatch",
+              "label": "Match or Mismatch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graduate_employment_2025",
+      "sourceFile": "graduate_employment_2025.xlsx",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "file": "sheet1.json",
+          "rowCount": 185,
+          "columns": [
+            {
+              "key": "graduation_year",
+              "label": "Graduation Year"
+            },
+            {
+              "key": "student_id",
+              "label": "Student ID"
+            },
+            {
+              "key": "undergraduate_field",
+              "label": "Undergraduate Field"
+            },
+            {
+              "key": "undergraduate_degree",
+              "label": "Undergraduate Degree"
+            },
+            {
+              "key": "job_position",
+              "label": "Job Position"
+            },
+            {
+              "key": "industry",
+              "label": "Industry"
+            },
+            {
+              "key": "employer",
+              "label": "Employer"
+            },
+            {
+              "key": "match_or_mismatch",
+              "label": "Match or Mismatch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "student_enrollment_2019",
+      "sourceFile": "student_enrollment_2019.xlsx",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "file": "sheet1.json",
+          "rowCount": 150,
+          "columns": [
+            {
+              "key": "entering_year",
+              "label": "Entering Year"
+            },
+            {
+              "key": "student_id",
+              "label": "Student ID"
+            },
+            {
+              "key": "shs_strand",
+              "label": "SHS Strand"
+            },
+            {
+              "key": "undergraduate_field",
+              "label": "Undergraduate Field"
+            },
+            {
+              "key": "undergraduate_program",
+              "label": "Undergraduate Program"
+            },
+            {
+              "key": "match_or_mismatch",
+              "label": "Match or Mismatch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "student_enrollment_2020",
+      "sourceFile": "student_enrollment_2020.xlsx",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "file": "sheet1.json",
+          "rowCount": 125,
+          "columns": [
+            {
+              "key": "entering_year",
+              "label": "Entering Year"
+            },
+            {
+              "key": "student_id",
+              "label": "Student ID"
+            },
+            {
+              "key": "shs_strand",
+              "label": "SHS Strand"
+            },
+            {
+              "key": "undergraduate_field",
+              "label": "Undergraduate Field"
+            },
+            {
+              "key": "undergraduate_program",
+              "label": "Undergraduate Program"
+            },
+            {
+              "key": "match_or_mismatch",
+              "label": "Match or Mismatch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "student_enrollment_2021",
+      "sourceFile": "student_enrollment_2021.xlsx",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "file": "sheet1.json",
+          "rowCount": 175,
+          "columns": [
+            {
+              "key": "entering_year",
+              "label": "Entering Year"
+            },
+            {
+              "key": "student_id",
+              "label": "Student ID"
+            },
+            {
+              "key": "shs_strand",
+              "label": "SHS Strand"
+            },
+            {
+              "key": "undergraduate_field",
+              "label": "Undergraduate Field"
+            },
+            {
+              "key": "undergraduate_program",
+              "label": "Undergraduate Program"
+            },
+            {
+              "key": "match_or_mismatch",
+              "label": "Match or Mismatch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

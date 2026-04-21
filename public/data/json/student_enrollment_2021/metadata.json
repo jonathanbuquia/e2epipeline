@@ -1,0 +1,37 @@
+{
+  "id": "student_enrollment_2021",
+  "sourceFile": "student_enrollment_2021.xlsx",
+  "sheets": [
+    {
+      "name": "Sheet1",
+      "file": "sheet1.json",
+      "rowCount": 175,
+      "columns": [
+        {
+          "key": "entering_year",
+          "label": "Entering Year"
+        },
+        {
+          "key": "student_id",
+          "label": "Student ID"
+        },
+        {
+          "key": "shs_strand",
+          "label": "SHS Strand"
+        },
+        {
+          "key": "undergraduate_field",
+          "label": "Undergraduate Field"
+        },
+        {
+          "key": "undergraduate_program",
+          "label": "Undergraduate Program"
+        },
+        {
+          "key": "match_or_mismatch",
+          "label": "Match or Mismatch"
+        }
+      ]
+    }
+  ]
+}

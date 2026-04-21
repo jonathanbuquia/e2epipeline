@@ -1,0 +1,1202 @@
+[
+  {
+    "entering_year": 2019,
+    "student_id": 20190001,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190002,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190003,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Civil Engineering",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190004,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Humanities w specialization in Creative Writing",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190005,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190006,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management with Specialization in Business Analytics",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190007,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190008,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190009,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190010,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Integrated Marketing",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190011,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190012,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190013,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190014,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190015,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190016,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190017,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Media and Entertainment Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190018,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190019,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190020,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Accountancy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190021,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Industrial Engineering",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190022,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190023,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Management Accounting",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190024,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190025,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Integrated Marketing",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190026,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190027,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Management Accounting",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190028,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Media and Entertainment Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190029,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190030,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management with Specialization in Business Analytics",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190031,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190032,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_program": "Bachelor of Early Childhood Education",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190033,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190034,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190035,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190036,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Media and Entertainment Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190037,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190038,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190039,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190040,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Industrial Engineering",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190041,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Humanities w specialization in Creative Writing",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190042,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190043,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management with Specialization in Business Analytics",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190044,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190045,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190046,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Humanities w specialization in Creative Writing",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190047,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Human Capital Development",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190048,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_program": "Bachelor of Early Childhood Education",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190049,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Civil Engineering",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190050,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Management Accounting",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190051,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190052,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Industrial Engineering",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190053,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Civil Engineering",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190054,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Human Capital Development",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190055,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190056,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190057,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190058,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190059,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Accountancy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190060,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190061,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Industrial Engineering",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190062,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Humanities w specialization in Creative Writing",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190063,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_program": "Bachelor of Early Childhood Education",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190064,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Accountancy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190065,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190066,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190067,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Management Accounting",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190068,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190069,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190070,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Humanities w specialization in Creative Writing",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190071,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190072,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Industrial Engineering",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190073,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190074,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Integrated Marketing",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190075,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Industrial Engineering",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190076,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190077,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Information Technology",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190078,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190079,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190080,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Media and Entertainment Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190081,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Management Accounting",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190082,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Industrial Engineering",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190083,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190084,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190085,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190086,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190087,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_program": "Bachelor of Early Childhood Education",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190088,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190089,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Human Capital Development",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190090,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190091,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Accountancy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190092,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Human Capital Development",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190093,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190094,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Management Accounting",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190095,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Media and Entertainment Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190096,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190097,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Information Technology",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190098,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Accountancy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190099,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management with Specialization in Business Analytics",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190100,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190101,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190102,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Information Technology",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190103,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Media and Entertainment Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190104,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Management Accounting",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190105,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Humanities w specialization in Creative Writing",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190106,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Information Technology",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190107,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190108,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190109,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Media and Entertainment Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190110,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190111,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190112,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management with Specialization in Business Analytics",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190113,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Industrial Engineering",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190114,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190115,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190116,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190117,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190118,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190119,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Humanities w specialization in Creative Writing",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190120,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Civil Engineering",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190121,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190122,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Civil Engineering",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190123,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Humanities w specialization in Creative Writing",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190124,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190125,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_program": "Bachelor of Early Childhood Education",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190126,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190127,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management with Specialization in Business Analytics",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190128,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Human Capital Development",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190129,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Integrated Marketing",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190130,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Sciences, Engineering, and Technology field",
+    "undergraduate_program": "BS in Civil Engineering",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190131,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190132,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "BS in BA major in Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190133,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Human Capital Development",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190134,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_program": "Bachelor of Early Childhood Education",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190135,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Accountancy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190136,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190137,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190138,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_program": "Bachelor of Early Childhood Education",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190139,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Entrepreneurial Management",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190140,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190141,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190142,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Management field",
+    "undergraduate_program": "BS in Accountancy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190143,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Media and Entertainment Management",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190144,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Data Science",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190145,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Science in Human Capital Development",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190146,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190147,
+    "shs_strand": "ABM",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "Bachelor of Arts in Political Economy",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190148,
+    "shs_strand": "STEM",
+    "undergraduate_field": "Education and Human Development field",
+    "undergraduate_program": "Bachelor of Early Childhood Education",
+    "match_or_mismatch": "Mismatch"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190149,
+    "shs_strand": "HUMSS",
+    "undergraduate_field": "Arts and Sciences field",
+    "undergraduate_program": "AB Health Humanities",
+    "match_or_mismatch": "Match"
+  },
+  {
+    "entering_year": 2019,
+    "student_id": 20190150,
+    "shs_strand": "GAS",
+    "undergraduate_field": "Economics field",
+    "undergraduate_program": "Bachelor of Arts in Economics",
+    "match_or_mismatch": "Mismatch"
+  }
+]
